@@ -1,9 +1,7 @@
-# Android SCADA 
-android application code  for control and monitor any plc act as SCADA 
+Android-Based Portable SCADA/HMI System for PLC Control and Monitoring
 
-تصميم تطبيق اندرويد يقوم بتحميل قاعدة بيانات لأي كنترول PLC  ويتم تشغيله على الموبايل كشاشة HMI والتحكم بالكنترولر من الموبايل وقراءة جميع بيانات الكنترول والتحكم بها
-تم تطبيقه على كنترولر شنايدر Modicon OTB1S0DM9LP
-وكنترولر LSIS LSIS XGB XBC-DR20SU
-تم تحميل قاعدة بيانات خاصة بنظام سكادا وتعريف المتغيرات وعناوينها Address Tages مراقبتها والتحكم فيها عن طريق الموبايل
-تم استخدام التطبيق في مراجعة العناوين و المدخلات والمخرجات للكنترولات بطريقة سريعه
-يتم عن طريق التطبيق عمل تطوير لأي شاشة HMI  دون تغير الكنترول 
+This project involves the development of an Android application designed to function as a portable, flexible SCADA/HMI system for industrial PLC control and real-time monitoring. The application loads a predefined configuration database for any target PLC, effectively transforming a standard mobile device into a fully functional HMI touchscreen. Through this interface, users can seamlessly control the controller, read live process data, and execute write commands to all accessible parameters.
+
+The system has been successfully implemented and validated on two distinct hardware platforms: the Schneider Modicon OTB1S0DM9LP and the LSIS XGB XBC-DR20SU controllers. To ensure accurate data mapping, the application imports a dedicated SCADA database that defines all variables alongside their corresponding address tags. This enables precise monitoring and remote manipulation of every configured data point directly from the mobile interface.
+
+Beyond standard operation, the application serves as a highly efficient field tool for rapidly reviewing and cross-checking controller address allocations, as well as verifying physical I/O statuses. A significant advantage of this solution is its ability to develop, customize, and deploy new HMI screens dynamically through the application—all without the need to modify, reprogram, or interrupt the underlying PLC logic or hardware architecture.
